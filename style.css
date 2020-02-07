@@ -1,0 +1,93 @@
+body {
+    background-image: url("img/pokebackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#inputField {
+    text-align: center;
+}
+
+h1 {
+    color: aquamarine;
+    margin-right: 50px;
+}
+
+button {
+    background-color: #f44336;
+    border-radius: 8px;
+    height: 50px;
+    width: 200px;
+    color: black;
+    border: 2px solid #f44336;
+    box-shadow: 0 0 10px 10px #f44336;
+    margin-right: 20px;
+}
+
+input {
+    align-content: center;
+    height: 44px;
+    width: 300px;
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 0 10px 10px whitesmoke;
+    margin-right: 20px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+
+body {
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.imageStyle {
+    background-color:  #f44336;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+    border: 2px solid #f44336;
+    box-shadow: 0 0 10px 10px #f44336;
+}
+
+.nameStyle {
+    text-align: center;
+    color: rgba(81, 27, 22, 0.92);
+}
+
+
+.divStyle {
+    text-align: center;
+    color: #7a4432;
+    width: 250px;
+    margin-left: 555px;
+    margin-top: 50px;
+    background-color: #cfe7f8;
+    border: #cfe7f8 ;
+    box-shadow: 0 0 10px 10px #cfe7f8;
+    border-radius: 10px;
+}
+
+#fatherDiv {
+    display: inline-block;
+}
+
+ul {
+    margin-left: -30px;
+
+    text-underline: #f44336
+}
+.border_gradient {
+    border: 8px solid #000;
+    -moz-border-bottom-colors:#897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
+    -moz-border-top-colors:#897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
+    -moz-border-left-colors:#897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
+    -moz-border-right-colors:#897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
+    padding: 5px 5px 5px 15px;
+    width: 300px;
+}
